@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
 
-const port = 3000;
+const port = 8080;
 app.listen(port, function() {
 	console.log('Listening to port:', port)
 });

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .nav-bar-top {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	width: 100%;
 	height: 35px;
 	background-color: rgba(45, 45, 45, 0.97);
@@ -8,11 +11,21 @@
 
 .nav-bar-btm {
 	width: 100%;
-	height: 80px;
+	height: 120px;
 	background-color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-bottom: 1px solid black;
+	}
+
+.nav-top-text {
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: bolder;
+	color: #fff;
+	margin: 0 50px 0 0;
 	}
 
 .nav-btm-text {
@@ -22,4 +35,28 @@
 	font-weight: bolder;
 	color: #000;
 	margin: 0 20px;
+	}
+
+.nav-btm-text:hover {
+	color: #B99767;
+	border-bottom: 1px solid #B99767;
+	cursor: pointer;
+	}
+
+.phone {
+	background: url("http://www.fhcfresno.org/wp-content/uploads/2014/10/phone-white.png") center no-repeat;
+	background-size: contain;
+	width: 13px;
+	height: 13px;
+	margin-bottom: 3px;
+	margin-right: 5px;
+	}
+
+.email {
+	background: url("../src/email-12-xxl.png") center no-repeat;
+	background-size: contain;
+	width: 15px;
+	height: 15px;
+	margin-bottom: 1px;
+	margin-right: 7px;
 	}

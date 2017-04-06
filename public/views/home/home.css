@@ -1,0 +1,6 @@
+.home-img {
+	background: url("../../src/runners-silhouettes.jpeg") center no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 400px;
+	}
